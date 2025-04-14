@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: ConfigMap
-metadata:
-  name: aksdemo-config
-  namespace: aksappdemo
-  labels:
-    app.kubernetes.io/name: aksdemo
-    kubernetes.azure.com/generator: devhub
-data:
